@@ -1,1 +1,11 @@
-add new function for toggle the place
+<!--add new function for toggle the place-->
+<script>
+function togglePlace(placeId) {
+    var place = document.getElementById(placeId);
+    if (place.style.display === "none") {
+        place.style.display = "block";
+    } else {
+        place.style.display = "none";
+    }
+}
+</script>
